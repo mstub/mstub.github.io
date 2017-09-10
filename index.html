@@ -1,0 +1,366 @@
+<!DOCUMENT html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="new.css" rel="stylesheet">
+        <title>Matt Stubenhofer</title>
+
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+          
+            ga('create', 'UA-105826862-1', 'auto');
+            ga('send', 'pageview');
+          
+          </script>
+
+    </head>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top nav-container">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNav">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand navbar-title" href="#"><strong>Matt Stubenhofer</strong></a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNav">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#about"><i class="fa fa-user-o"></i> &nbsp;About</a></li>
+              <li><a href="#projects"><i class="fa fa-code-fork"></i> &nbsp;Projects</a></li>
+              <li><a href="#badges"><i class="fa fa-code"></i> &nbsp;Courses</a></li>
+              <li><a href="#contact"><i class="fa fa-envelope-o"></i> &nbsp;Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+<body>
+
+    <!-- HEADER -->
+    <div id="top-header" class="container-fluid header-wrapper text-center">
+        <div class="header-container">
+            <div class="header-title">Matt Stubenhofer</div>
+            <div>Web Developer</div>
+        </div>
+    </div> 
+
+    <!-- ABOUT ME SECTION WRAPPER -->
+    <div id="about" class="container-fluid about-wrapper">
+        <div class="row about-text">
+            <div class="col-md-6">
+                <h2 class="about-title text-center">About Matt</h2>
+                <p>In high school, I got my feet wet with programming by learning C++. Recently I decided to pursue learning Web Development with the help of freeCodeCamp. Most everyone these days specializes in a career field, yet I've always pushed to be the Jack of All Trades. From learning a new trade, to constructing a firearm from scratch; I always strive to soak up as much knowledge as I can. Check out my <a href="mds-resume.pdf" alt="" target="_blank">resume</a> for a brief overview of my experience in the construction industy!</p>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-5 about-images center-block"><img src="images/me.jpg" alt="" class="thumb"></div>
+        </div>
+    </div> 
+
+    <!-- PROJECTS HEADER WRAPPER -->
+    <div class="container-fluid text-center projects-wrapper" id="projects">
+        <div class="title projects-title">Projects</div>
+        <div class="row thumb-row">   
+            <div class="thumbnail project-thumb">
+                <img src="images/projects/tribute.png" alt="Tribute" data-toggle="modal" data-target="#modal-tribute" class="modal-thumb p-img">
+                <div class="caption"><strong>Shane Smith Tribute</strong></div>  
+            </div> 
+            <div class="thumbnail project-thumb">
+                <img src="images/projects/lyric-gen.png" alt="Lyric Generator" data-toggle="modal" data-target="#modal-lyric" class="modal-thumb p-img">
+                <div class="caption"><strong>Lyric Generator</strong></div>
+            </div>
+            <div class="thumbnail project-thumb">
+                <img src="images/projects/weather.png" alt="Weather App" data-toggle="modal" data-target="#modal-weather" class="modal-thumb p-img">
+                <div class="caption"><strong>Local Weather</strong></div>
+            </div>
+        </div>
+        <div class="row thumb-row">
+            <div class="thumbnail project-thumb">
+                <img src="images/projects/twitch.png" alt="Twitch.TV" data-toggle="modal" data-target="#modal-twitch" class="modal-thumb p-img">
+                <div class="caption"><strong>Twitch.tv Zipline</strong></div>
+            </div>   
+            <div class="thumbnail project-thumb">
+                <img src="images/projects/pig-dice.png" alt="Pig Dice" data-toggle="modal" data-target="#modal-pig" class="modal-thumb p-img">
+                <div class="caption"><strong>Pig Dice</strong></div>
+            </div>   
+            <div class="thumbnail project-thumb">
+                <img src="images/projects/budget.png" alt="Budget" data-toggle="modal" data-target="#modal-budget" class="modal-thumb p-img">
+                <div class="caption"><strong>Budget App</strong></div>
+            </div>  
+        </div>
+        <div class="row thumb-row">
+            <div class="thumbnail project-thumb">
+                <img src="images/projects/fcc.png" alt="freeCodeCamp OKC" data-toggle="modal" data-target="#modal-fcc" class="modal-thumb p-img">
+                <div class="caption"><strong>freeCodeCamp OKC</strong></div>
+            </div>
+            <div class="thumbnail project-thumb">
+                <img src="images/projects/chet.png" alt="Chet Walters Homes" data-toggle="modal" data-target="#modal-chet" class="modal-thumb p-img">
+                <div class="caption"><strong>Chet Walters Homes</strong></div>
+            </div>     
+        </div>
+    </div>
+ 
+    <!-- REPORT CARD WRAPPER -->
+    <div id="badges" class="container-fluid report-card-wrapper">
+        <h3 class="text-center report-card-title">CodeSchool Courses</h3>
+        <!-- Area to append code-school badges -->
+    </div>
+
+    <!-- CONTACT ME WRAPPER -->
+    <div id="contact" class="container-fluid contact-wrapper">
+        <h3 class="text-center contact-title">Contact Matt!</h3>
+            <div class="form-container contact-form">
+                <form id="contact-form" action="https://formspree.io/matt.ds@outlook.com" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" class="form-control" placeholder="John Smith" required/>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" class="form-control" placeholder="jsmith@example.com" required/>
+                    </div>
+                    <div class="form-group">
+                        <label for="phonenumber">Phone Number</label>
+                        <input type="telephone" name="phone" id="phone" pattern="^(\([0-9]{3}\) |[0-9]{3}-)[0-9]{3}-[0-9]{4}$" placeholder="(555) 555-5555" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="5" class="form-control"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary contact-button">Just Gonna Send It!</button>
+                </form>
+            </div>
+    </div>
+
+    <!-- SOCIAL ICONS WRAPPER -->
+    <div class="container social-wrapper">
+        <a href="https://www.facebook.com/matt.stubenhofer" alt="Facebook" target="_blank" rel="external"><i id="facebook" class="fa fa-facebook-square fa-3x fa-social"></i></a>
+        <a href="https://twitter.com/MattStubenhofer" alt="Twitter" target="_blank" rel="external"><i id="twitter" class="fa fa-twitter-square fa-3x fa-social"></i></a>
+        <a href="https://www.codepen.io/mattstubenhofer" alt="Codepen" target="_blank" rel="external"><i id="codepen" class="fa fa-codepen fa-3x fa-social"></i></a>
+        <a href="https://www.freecodecamp.org/mstub" alt="freeCodeCamp" target="_blank" rel="external"><i id="fcc" class="fa fa-free-code-camp fa-3x fa-social"></i></a>
+        <a href="https://github.com/mstub" alt="GitHub" target="_blank" rel="external"><i id="github" class="fa fa-github-square fa-3x fa-social"></i></a>
+        <a href="https://www.instagram.com/mattstubbsok/" alt="Instagram" target="_blank" rel="external"><i id="instagram" class="fa fa-instagram fa-3x fa-social"></i></a>
+        <a href="https://www.linkedin.com/in/mattstubenhofer/" alt="LinkedIn" target="_blank" rel="external"><i id="linkedin" class="fa fa-linkedin-square fa-3x fa-social"></i></a>
+        <a href="https://www.meetup.com/members/229437275/" alt="Meetup" target="_blank" rel="external"><i id="meetup" class="fa fa-meetup fa-3x fa-social"></i></a> 
+    </div>
+</body>
+
+<footer class="container text-center">
+    <div>&copy 2017 Matt Stubenhofer, All Rights Reserved</div>
+</footer>   
+
+<!-- PIG DICE MODAL -->
+<div class="modal fade" id="modal-pig" tabindex="-1" role="dialog" aria-labelledby="modal-pig" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" aria-label="close">&times;</button>
+                <h4 class="modal-title" id="modal-pig-title">Pig Dice Game</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-5"><img src="images/projects/pig-dice.png" alt="" class="center-block img-responsive"></div>
+                    <div class="col-md-7 modal-text">
+                        <p>This simple little dice game was created during <a href="https://www.udemy.com/the-complete-javascript-course/" title="Complete Javascript Course" rel="external" target="_blank">The Complete Javascript Course</a> found on Udemy. This course taught by Jonas Schmedtmann is a thorough course for learning Vanilla Javascript. This dice game helped teach me how to manipulate the DOM with event handlers, although it needs a large amount of styling still to become easier to the eye as the transitions and features of the game can still be somewhat challenging to understand right out of the box.</p>
+                        <p><strong>Skills:</strong> &nbsp;Vanilla Javascript, HTML5, CSS3</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="https://mstub.github.io/pig-dice/" class="btn btn-default" target="_blank">App</a>
+                <a href="https://github.com/mstub/pig-dice" class="btn btn-default" target="_blank">Source Code</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- LYRIC GENERATOR MODAL -->
+<div class="modal fade" id="modal-lyric" tabindex="-1" role="dialog" aria-labelledby="modal-lyric" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" aria-label="close">&times;</button>
+                <h4 class="modal-title" id="modal-lyric-title">Lyric Generator</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-5"><img src="images/projects/lyric-gen.png" alt="" class="center-block img-responsive"></div>
+                    <div class="col-md-7 modal-text">
+                        <p>This small project was completed as an Intermediate Front End Project for freeCodeCamp. My adaptation on the quote generator features a small list of some of my favorite quotes. This was my third project to complete on freeCodeCamp that I continue to tweak from time to time as an aside.</p>
+                        <p><strong>Skills:</strong> &nbsp;jQuery, Bootstrap3, HTML5, CSS3</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="https://mstub.github.io/lyric-generator/" class="btn btn-default" target="_blank">Site</a>
+                <a href="https://github.com/mstub/lyric-generator" class="btn btn-default" target="_blank">Source Code</a>
+            </div>
+        </div>
+    </div>
+</div> 
+
+<!-- BUDGET APP MODAL --> 
+<div class="modal fade" id="modal-budget" tabindex="-1" role="dialog" aria-labelledby="modal-budget" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" aria-label="close">&times;</button>
+                <h4 class="modal-title" id="modal-budget-title">Budget App</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-5"><img src="images/projects/budget.png" alt="" class="center-block img-responsive"></div>
+                    <div class="col-md-7 modal-text">
+                        <p>This small budget app was completed during <a href="https://www.udemy.com/the-complete-javascript-course/" title="Complete Javascript Course" rel="external" target="_blank">The Complete Javascript Course</a> found on Udemy. This course taught by Jonas Schmedtmann is a thorough course for learning Vanilla Javascript. This application just features local storage reflecting a budget app, teaching event handlers and going through the logic of application architecture.</p>
+                        <p><strong>Skills:</strong> &nbsp;Vanilla Javascript, HTML5, CSS3</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="https://mstub.github.io/budget-app/" class="btn btn-default" target="_blank">App</a>
+                <a href="https://github.com/mstub/budget-app" class="btn btn-default" target="_blank">Source Code</a>
+            </div>
+        </div>
+    </div>
+</div> 
+        
+<!-- TRIBUTE MODAL -->      
+<div class="modal fade" id="modal-tribute" tabindex="-1" role="dialog" aria-labelledby="modal-tribute" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" aria-label="close">&times;</button>
+                <h4 class="modal-title" id="modal-tribute-title">Shane Smith Tribute Page</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-5"><img src="images/projects/tribute.png" alt="" class="center-block img-responsive"></div>
+                    <div class="col-md-7 modal-text">
+                        <p>The tribute page was created for freeCodeCamp, teaching a bit of initial bootstrap and HTML design. Very simple one page tribute page that features a favorite lyric, a small back story on the band, and a YouTube embed of my favorite song.</p>
+                        <p><strong>Skills:</strong> &nbsp;HTML5, CSS3, Bootstrap3</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="https://mstub.github.io/tribute/" class="btn btn-default" target="_blank">Site</a>
+                <a href="https://github.com/mstub/tribute" class="btn btn-default" target="_blank">Source Code</a>
+            </div>
+        </div>
+    </div>
+</div> 
+
+<!-- WEATHER MODAL -->      
+<div class="modal fade" id="modal-weather" tabindex="-1" role="dialog" aria-labelledby="modal-weather" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" aria-label="close">&times;</button>
+                <h4 class="modal-title" id="modal-weather-title">Local Weather Zipline</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-5"><img src="images/projects/weather.png" alt="" class="center-block img-responsive"></div>
+                    <div class="col-md-7 modal-text">
+                        <p>A project created for my Intermediate Front End Project section of the Front End Development Certification. Here was my first run with anything AJAX related, although it is simplistic in nature, my intent was to release a version of this project as required by the user stories and address some more UI/UX styling later down the road. </p>
+                        <p><strong>Skills:</strong> &nbsp;jQuery, Bootstrap3, HTML5, CSS3</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="https://mstub.github.io/fcc-localweather/" class="btn btn-default" target="_blank">App</a>
+                <a href="https://github.com/mstub/fcc-localweather" class="btn btn-default" target="_blank">Source Code</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- FCC-OKC MODAL -->      
+<div class="modal fade" id="modal-fcc" tabindex="-1" role="dialog" aria-labelledby="modal-fcc" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" aria-label="close">&times;</button>
+                <h4 class="modal-title" id="modal-fcc-title">freeCodeCamp OKC</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-5"><img src="images/projects/fcc.png" alt="" class="center-block img-responsive"></div>
+                    <div class="col-md-7 modal-text">
+                        <p style="italic"><em>Contributor</em></p>
+                        <p>freeCodeCamp OKC is a local meetup group for freeCodeCamp students wanting to network and find others locally who are utilizing the freeCodeCamp service to learn how to code. I have made multiple contributions in small features on the website. This project was put together by the organizers as a way to get students involved in Open Source Contribution.</p>
+                        <p><strong>Skills:</strong> &nbsp;jQuery, CSS Grid, HTML5, CSS3</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="https://www.fccokc.com" class="btn btn-default" target="_blank">Site</a>
+                <a href="https://github.com/FreeCodeCampOKC/fccokc_web" class="btn btn-default" target="_blank">Source Code</a>
+                <a href="https://github.com/FreeCodeCampOKC/fccokc_web/commits?author=mstub" class="btn btn-default" target="_blank">Commits</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- TWITCH.TV ZIPLINE -->      
+<div class="modal fade" id="modal-twitch" tabindex="-1" role="dialog" aria-labelledby="modal-twitch" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" aria-label="close">&times;</button>
+                <h4 class="modal-title" id="modal-fcc-twitch">Twitch.tv Zipline</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-5"><img src="images/projects/twitch.png" alt="" class="center-block img-responsive"></div>
+                    <div class="col-md-7 modal-text">
+                        <p>The Twitch-TV Zipline is a simple site that retrieves stream information for twitch.tv users. Most call two JSON requests in order to retrieve necessary online, offline, or unavailable information. I chose to use jQuery getJSON method to help clean and condense the code for this challenge.</p>
+                        <p><strong>Skills:</strong> &nbsp;jQuery, Bootstrap3, HTML5, CSS3</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="https://mstub.github.io/fcc-twitch/" class="btn btn-default" target="_blank">App</a>
+                <a href="https://github.com/mstub/fcc-twitch" class="btn btn-default" target="_blank">Source Code</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- CHET WALTERS HOMES -->      
+<div class="modal fade" id="modal-chet" tabindex="-1" role="dialog" aria-labelledby="modal-chet" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" aria-label="close">&times;</button>
+                <h4 class="modal-title" id="modal-chet-title">Chet Walters Homes</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-5"><img src="images/projects/chet.png" alt="" class="center-block img-responsive img-rounded"></div>
+                    <div class="col-md-7 modal-text">
+                        <p style="italic"><em>Maintainer</em></p>
+                        <p>This site was adapted for a quick alternative to an outdated site for a client wanting something more modern. Still a work in progress but we didn't want to run the risk of losing potential clients when a site was not available to view. Design was a template from <a href="https://html5up.net/" target="_blank">HTML5 UP</a>.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="https://mstub.github.io/chetwaltersok/" class="btn btn-default" target="_blank">App</a>
+                <a href="https://github.com/mstub/chetwaltersok" class="btn btn-default" target="_blank">Source Code</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="scripts/scroll.js"></script>
+    <script src="scripts/badges.js"></script>
+</html>
