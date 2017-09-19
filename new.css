@@ -132,7 +132,7 @@ html {
 }
 
 .header-wrapper {
-    background-image: url('images/bg-1.jpeg');
+    background-image: url('images/bg-1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -207,7 +207,8 @@ html {
     background-repeat: no-repeat;
     padding: 5% 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
-    max-width: 95%;
+    overflow: hidden;
+    max-width: 100%;
 }
 
 .report-card-title {
