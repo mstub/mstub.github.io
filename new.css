@@ -32,7 +32,6 @@ footer {
 
 html {
     font-size: 10px;
-    font-variant: small-caps;
 }
 
 /* CLASS CHANGES */
@@ -182,20 +181,21 @@ html {
 
 .p-img {
     height: 400px;
-    max-height: 95%;
+    max-height: 75%;
     width: 400px;
-    max-width: 95%;
+    max-width: 75%;
 }
 
 .project-thumb {
-    padding: 4px;
+    padding: 2px;
     font-size: 2.5rem;
-    max-width: 75%;
+    max-width: 20%;
     display: inline-block;
 }
 
 .projects-title {
     font-size: 10rem;
+    padding-bottom: 20px;
     color: white;
     text-shadow: 2px 2px 3px rgba(12, 13, 21, 0.5);
 }
@@ -294,10 +294,6 @@ html {
     .about-wrapper {
         display: block;
     }
-    
-    .project-thumb {
-        max-width: 30%;
-    }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -311,12 +307,19 @@ html {
     }
 }
 
+@media only screen and (max-width: 840px) {
+    .project-thumb {
+        max-width: 75%;
+    }
+
+    .project-wrapper {
+        max-width: 85%;
+    }
+}
+
 @media only screen and (max-width: 680px) {
     .form-container {
         width: 90%;
-    }
-    .project-thumb {
-        max-width: 75%;
     }
 }
 
