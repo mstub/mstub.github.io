@@ -5,7 +5,7 @@
         <meta name='viewport' content='width=device-width, initial-scale=1'>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-        <link href="new.css" rel="stylesheet">
+        <link href="stylesheets/main.css" rel="stylesheet">
         <title>Matt Stubenhofer</title>
 
         <script>
@@ -36,7 +36,7 @@
             <ul class="nav navbar-nav navbar-right">
               <li><a href="#about"><i class="fa fa-user-o"></i> &nbsp;About</a></li>
               <li><a href="#projects"><i class="fa fa-code-fork"></i> &nbsp;Projects</a></li>
-              <li><a href="#badges"><i class="fa fa-code"></i> &nbsp;Courses</a></li>
+              <li><a href="education.html"><i class="fa fa-code"></i> &nbsp;Courses</a></li>
               <li><a href="#contact"><i class="fa fa-envelope-o"></i> &nbsp;Contact</a></li>
             </ul>
           </div>
@@ -82,11 +82,15 @@
                 <div class="caption"><strong>Twitch.tv Zip</strong></div>
             </div>
             <div class="thumbnail project-thumb">
-                <img src="images/projects/weather.png" alt="Weather App" data-toggle="modal" data-target="#modal-weather" class="modal-thumb p-img">
-                <div class="caption"><strong>Local Weather</strong></div>
+                <img src="images/projects/pomodoro.png" alt="PomoClock" data-toggle="modal" data-target="#modal-pomodoro" class="modal-thumb p-img">
+                <div class="caption"><strong>Pomodoro Clock</strong></div>
             </div>
         </div>
         <div class="row thumb-row">
+            <div class="thumbnail project-thumb">
+                <img src="images/projects/weather.png" alt="Weather App" data-toggle="modal" data-target="#modal-weather" class="modal-thumb p-img">
+                <div class="caption"><strong>Local Weather</strong></div>
+            </div>
             <div class="thumbnail project-thumb">                   
                 <img src="images/projects/lyric-gen.png" alt="Lyric Generator" data-toggle="modal" data-target="#modal-lyric" class="modal-thumb p-img">
                 <div class="caption"><strong>Lyric Generator</strong></div>
@@ -102,12 +106,6 @@
         </div>
     </div>
  
-    <!-- REPORT CARD WRAPPER -->
-    <div id="badges" class="container-fluid report-card-wrapper">
-        <h3 class="text-center report-card-title">CodeSchool Courses</h3>
-        <!-- Area to append code-school badges -->
-    </div>
-
     <!-- CONTACT ME WRAPPER -->
     <div id="contact" class="container-fluid contact-wrapper">
         <h3 class="text-center contact-title">Contact Matt!</h3>
@@ -226,32 +224,31 @@
     </div>
 </div> 
         
-<!-- TRIBUTE MODAL -->      
-<!--
-<div class="modal fade" id="modal-tribute" tabindex="-1" role="dialog" aria-labelledby="modal-tribute" aria-hidden="true">
+<!-- POMODORO MODAL -->      
+<div class="modal fade" id="modal-pomodoro" tabindex="-1" role="dialog" aria-labelledby="modal-pomodoro" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true" aria-label="close">&times;</button>
-                <h4 class="modal-title" id="modal-tribute-title">Shane Smith Tribute Page</h4>
+                <h4 class="modal-title" id="modal-pomodoro-title">Pomodoro Clock</h4>
             </div>
             <div class="modal-body">
                 <div class="row">
-                    <div class="col-md-5"><img src="images/projects/tribute.png" alt="" class="center-block img-responsive"></div>
+                    <div class="col-md-5"><img src="images/projects/pomodoro.png" alt="" class="center-block img-responsive"></div>
                     <div class="col-md-7 modal-text">
-                        <p>The tribute page was created for freeCodeCamp, teaching a bit of initial bootstrap and HTML design. Very simple one page tribute page that features a favorite lyric, a small back story on the band, and a YouTube embed of my favorite song.</p>
-                        <p><strong>Skills:</strong> &nbsp;HTML5, CSS3, Bootstrap3</p>
+                        <p>This Pomodoro Clock project has a couple of firsts for me. This was my first time to add audio files into an application. I also made the choice to utilize Bootstrap4 this time, as usually for quick responsive sites like this I choose to use Bootstrap3.</p>
+                        <p><strong>Skills:</strong> &nbsp;JavaScript(JQuery), HTML5, CSS3, Bootstrap4</p>
                     </div>
                 </div>
             </div>
             <div class="modal-footer">
-                <a href="https://mstub.github.io/tribute/" class="btn btn-default" target="_blank">Site</a>
-                <a href="https://github.com/mstub/tribute" class="btn btn-default" target="_blank">Source Code</a>
+                <a href="https://mstub.github.io/fcc-pomodoro/" class="btn btn-default" target="_blank">App</a>
+                <a href="https://github.com/mstub/fcc-pomodoro" class="btn btn-default" target="_blank">Source Code</a>
             </div>
         </div>
     </div>
 </div> 
--->
+
 <!-- WEATHER MODAL -->      
 <div class="modal fade" id="modal-weather" tabindex="-1" role="dialog" aria-labelledby="modal-weather" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -384,5 +381,4 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="scripts/scroll.js"></script>
-    <script src="scripts/badges.js"></script>
 </html>
