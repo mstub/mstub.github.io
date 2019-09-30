@@ -27,6 +27,17 @@ h1.title {
       margin-top: 7.5rem;
       font-size: 4.5rem; } }
 
+h6.hash {
+  font-weight: 900;
+  font-size: 1.6rem;
+  letter-spacing: 0.125rem; }
+  @media screen and (min-width: 375px) {
+    h6.hash {
+      font-size: 1.0rem; } }
+  @media screen and (min-width: 960px) {
+    h6.hash { 
+      font-size: 1.6rem; } }
+
 a {
   color: #4A89DC;
   text-decoration: none;

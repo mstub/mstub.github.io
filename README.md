@@ -7,4 +7,8 @@
 ## 30 September 2019 - Update
 - Updated to current Resume
 - Updated broken e-mail link
-- Working on a swap over to Jekyll for blogging potential
+- Updated about blurb & some hash tags
+
+### Future Updates
+- [ ] Migrate to Jekyll for Blog
+- [ ] Migrate to Minimal Mistakes Theme (maintain some site style)
