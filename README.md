@@ -9,6 +9,9 @@
 - Updated broken e-mail link
 - Updated about blurb & some hash tags
 
+## 1 October 2019 - Update
+- Added message while we migrate to Jekyll
+
 ### Future Updates
 - [ ] Migrate to Jekyll for Blog
 - [ ] Migrate to Minimal Mistakes Theme (maintain some site style)
