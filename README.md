@@ -11,6 +11,7 @@
 
 ## 1 October 2019 - Update
 - Added message while we migrate to Jekyll
+- Added links to Tech Talks & Front End Repo's
 
 ### Future Updates
 - [ ] Migrate to Jekyll for Blog
