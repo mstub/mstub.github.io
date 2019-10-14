@@ -1,0 +1,135 @@
+html, body {
+  color: #404040;
+  font-family: "Montserrat", "Helvetica Neue", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  background: #F2F2F2; }
+  @media screen and (min-width: 960px) {
+    html, body {
+      font-size: 1rem; } }
+
+h1, h3, h3, h4, h5, h6 {
+  font-family: "Rubik Black", sans-serif;
+  font-weight: 700;
+  color: #303030; }
+
+h1.title {
+  font-weight: 900;
+  font-size: 4.5rem;
+  letter-spacing: -0.224rem;
+  margin-top: 1.5rem; }
+  @media screen and (min-width: 375px) {
+    h1.title {
+      margin-top: 4.5rem;
+      font-size: 2.8rem; } }
+  @media screen and (min-width: 960px) {
+    h1.title {
+      margin-top: 7.5rem;
+      font-size: 4.5rem; } }
+
+h6.hash {
+  font-weight: 900;
+  font-size: 1.6rem;
+  letter-spacing: 0.125rem; }
+  @media screen and (min-width: 375px) {
+    h6.hash {
+      font-size: 0.8rem; } }
+  @media screen and (min-width: 960px) {
+    h6.hash { 
+      font-size: 1.6rem; } }
+
+a {
+  color: rgb(47, 123, 223);
+  font-weight: bold;
+  text-decoration: none;
+  -webkit-transition: color 250ms ease-in-out;
+  transition: color 250ms ease-in-out; }
+  a:hover {
+    color: #1f57a1;
+    text-decoration: none;
+    -webkit-transition: color 250ms ease-in-out;
+    transition: color 250ms ease-in-out; }
+
+.button {
+  font-family: "Helvetica Neue", sans-serif;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out; }
+  .button:hover {
+    background-color: #434A54;
+    color: #FEFDFA;
+    -webkit-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out; }
+
+.m-social {
+  display: flex;
+  padding-top: 2rem;
+  height: 10vh; }
+  .m-social i {
+    padding: 0 0.3rem;
+    color: #303030;
+    cursor: pointer;
+    transition: all ease-in-out 250ms;
+    text-shadow: 0px 7px 8px rgba(0, 0, 0, 0.4); }
+    .m-social i:hover {
+      margin-top: -6px;  
+      transform: translate(0, -8); }
+
+#facebook:hover {
+  color: #4867AA;
+  text-shadow: 0px 16px 10px rgba(36, 101, 135, 0.5); }
+
+#twitter:hover {
+  color: #1DA1F2;
+  text-shadow: 0px 16px 10px rgba(29, 202, 255, 0.5); }
+
+#instagram:hover {
+  color: #8a3ab9;
+  text-shadow: 0px 16px 10px rgba(233, 89, 80, 0.5); }
+
+#linkedin:hover {
+  color: #0077B5;
+  text-shadow: 0px 16px 10px rgba(0, 160, 220, 0.5); }
+
+#github:hover {
+  color: #c9510c;
+  text-shadow: 0px 16px 10px rgba(189, 44, 0, 0.5); }
+
+/** Site header */
+.site-header { min-height: 15px; position: relative; }
+
+.site-title { font-size: 26px; font-weight: 300; line-height: 54px; letter-spacing: -1px; margin-bottom: 0; float: left; }
+
+.site-title, .site-title:visited { color: #424242; }
+
+/** .site-nav { float: right; line-height: 54px; } **/
+.site-nav { line-height: 40px; position: absolute; top: 9px; right: 15px; background-color: #fdfdfd; border: 1px solid #e8e8e8; border-radius: 5px; text-align: right; }
+
+.site-nav .nav-trigger { display: none; }
+
+.site-nav label[for="nav-trigger"] { display: block; float: right; width: 36px; height: 36px; z-index: 2; cursor: pointer; }
+
+/** .site-nav .menu-icon { display: none; } **/
+.site-nav .menu-icon { display: block; float: right; width: 36px; height: 18px; line-height: 0; padding-top: 10px; text-align: center; }
+.site-nav .menu-icon > svg { fill: #424242; }
+
+.site-nav .page-link { color: #111; line-height: 1.5; }
+.site-nav .page-link { display: block; padding: 10px 10px; margin-left: 20px; }
+
+.site-nav input ~ .trigger { clear: both; display: none; }
+.site-nav input:checked ~ .trigger { display: block; padding-bottom: 5px; }
+
+/** .site-nav .page-link:not(:last-child) { margin-right: 20px; } **/
+.site-nav .page-link:not(:last-child) { margin-right: 0; } 
+
+/**
+@media screen and (max-width: 600px) { 
+  .site-nav { position: absolute; top: 9px; right: 15px; background-color: #fdfdfd; border: 1px solid #e8e8e8; border-radius: 5px; text-align: right; }
+  .site-nav label[for="nav-trigger"] { display: block; float: right; width: 36px; height: 36px; z-index: 2; cursor: pointer; }
+  .site-nav .menu-icon { display: block; float: right; width: 36px; height: 26px; line-height: 0; padding-top: 10px; text-align: center; }
+  .site-nav .menu-icon > svg { fill: #424242; }
+  .site-nav input ~ .trigger { clear: both; display: none; }
+  .site-nav input:checked ~ .trigger { display: block; padding-bottom: 5px; }
+  .site-nav .page-link { display: block; padding: 5px 10px; margin-left: 20px; }
+  .site-nav .page-link:not(:last-child) { margin-right: 0; } 
+}
+**/

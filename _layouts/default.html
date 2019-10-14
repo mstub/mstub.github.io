@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en-US">
+  <!-- Page Meta Data -->
+  {% include head.html %}
+<body>
+  <main>
+    <article class="container">
+      <!-- Navigation Bar -->
+      <header class="row">
+        {% include header.html %}
+        <h1 class="title"> {{ page.title }} </h1>
+      </header>
+      <!-- Page Content -->
+      <section class="row">
+          <p> {{ content }} </p>
+      </section>
+      <!-- Footer Navigation -->
+      {% include footer.html %}
+    </article>
+  </main>
+</body>
+</html>

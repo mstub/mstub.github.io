@@ -1,0 +1,17 @@
+---
+layout: "default"
+---
+{% assign words = content | number_of_words %}
+
+<time>
+  {{ page.date | date: "%b %-d, %Y" }}
+  {% if page.author %} • {{ page.author }}{% endif %}
+  {% if page.meta %} • {{ page.meta }}{% endif %}
+  {% if words < 400 %} •
+    1 min
+  {% else %}
+    {{ words | divided_by: site.data.words_per_minute }} mins
+  {% endif %} read
+</time>
+
+{{ content }}

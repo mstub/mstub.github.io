@@ -1,0 +1,13 @@
+- name: Home
+  link: /
+# TODO: Transfer home page content to about page, figure out what to list on home page?
+#       Perhaps home page can be a list of recent blog posts
+# - name: About
+#  link: /about
+- name: Contact
+  link: /contact
+- name: Blog
+  link: /blog
+- name: Resume
+  link: /assets/docs/resume.pdf
+   
