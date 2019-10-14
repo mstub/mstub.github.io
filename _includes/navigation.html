@@ -1,0 +1,7 @@
+<nav>
+  <a href="mailto:matt.stubenhofer@gmail.com"  target="_blank">Email Me</a>
+  <a href="https://www.mattstub.com/resume.pdf"  target="_blank">Resume</a>
+  {% for item in site.data.navigation %}
+  <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}> {{ item.name }} </a>
+  {% endfor %}
+</nav>
