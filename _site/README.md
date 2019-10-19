@@ -8,3 +8,9 @@
 - [x] 30 Sep 19 - Updated resume, broken e-mail link, about blurbs
 - [x] 01 Oct 19 - Added migrate message, added links to talks & repos
 - [x] 14 Oct 19 - Migrate to Jekyll, lots of site wide updates
+
+## Needs
+- [ ] Integrate Travis CI
+- [ ] Build Tag, Year & Category Archive Pages
+- [ ] Work with Site Navigation Bar
+- [ ] Work with Site Footer

@@ -89,7 +89,8 @@ kramdown:
 keep_files          : [".git", ".svn"]
 encoding            : "utf-8"
 markdown_ext        : "markdown,mkdown,mkdn,mkd,md"
-strict_front_matter : false
+strict_front_matter : true # false
+
 
 # OUTPUTTING
 permalink           : /:categories/:title/  # default "date"
@@ -102,7 +103,7 @@ verbose             : false
 defaults            : []
 
 liquid:
-  error_mode        : warn
+  error_mode        : strict # warn
   strict_filters    : false
   strict_variables  : false
 
@@ -164,3 +165,6 @@ exclude:
   - /_drafts
 
 include: ['_pages'] 
+
+# Author Information
+author : Matt Stubenhofer

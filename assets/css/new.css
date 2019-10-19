@@ -27,6 +27,20 @@ h1.title {
       margin-top: 7.5rem;
       font-size: 4.5rem; } }
 
+h3.title {
+  font-weight: 900;
+  font-size: 2.5rem;
+  letter-spacing: -0.224rem;
+  margin-top: 1.5rem; }
+  @media screen and (min-width: 375px) {
+    h3.title {
+      margin-top: 2.5rem;
+      font-size: 2rem; } }
+  @media screen and (min-width: 960px) {
+    h3.title {
+      margin-top: 7.5rem;
+      font-size: 2.5rem; } }
+
 h6.hash {
   font-weight: 900;
   font-size: 1.6rem;

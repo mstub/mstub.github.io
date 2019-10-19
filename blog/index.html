@@ -1,11 +1,17 @@
 ---
 layout: default
 title: Blog
+permalink: /blog
 ---
 
+<header class="row">
+	{% include header.html %}
+  <h1 class="title"> {{ page.title }} </h1>
+</header>
+
 {% for post in site.posts %}
-  <article>
+  <p>
 		{{ post.date | date: "%b %-d, %Y" }} • <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> 
 		{{ post.excerpt }} 
-	</article>
+	</p>
 {% endfor %}

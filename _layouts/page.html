@@ -2,4 +2,11 @@
 layout: default 
 ---
 
-{{ content }}
+<header class="row">
+  {% include header.html %}
+  <h1 class="title"> {{ page.title }} </h1>
+</header>
+
+<section class="row">
+    <p> {{ content }} </p>
+</section>

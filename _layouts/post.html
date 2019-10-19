@@ -1,17 +1,23 @@
 ---
-layout: "default"
+layout: default 
 ---
+
 {% assign words = content | number_of_words %}
+
+<header class="row">
+  {% include header.html %}
+  <h3 class="title"> {{ page.title }} </h1>
+</header>
 
 <time>
   {{ page.date | date: "%b %-d, %Y" }}
-  {% if page.author %} • {{ page.author }}{% endif %}
+  {% if site.author %} • {{ site.author }}{% endif %}
   {% if page.meta %} • {{ page.meta }}{% endif %}
   {% if words < 400 %} •
     1 min
-  {% else %}
-    {{ words | divided_by: site.data.words_per_minute }} mins
+  {% else %} •
+    {{ words | divided_by: site.words_per_minute }} min
   {% endif %} read
 </time>
-
-{{ content }}
+  
+<p> {{ content }} </p>
