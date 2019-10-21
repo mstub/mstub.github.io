@@ -4,6 +4,8 @@ title: About
 permalink: /about
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ratione corrupti ab dicta aliquid optio quasi nihil perspiciatis quia consectetur! Saepe asperiores voluptate eligendi nisi nostrum, nesciunt dolore voluptas! Natus?
+Since I can remember I have been taking things apart and tinkering with them. Most of my passions have always revolved around constructing and deconstructing items. Beginning with my first summer job 20 years ago at [Dolphin Pools](http://dolphinpoolstulsa.com/) in Tulsa, my life has been deeply entwined within the construction industry.  
 
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id ipsum a quae veritatis, praesentium maiores, numquam quis deleniti soluta vitae dolores, aut qui error ea deserunt officiis! Dicta excepturi sapiente iure temporibus, sit itaque omnis blanditiis saepe dolor? Eaque, provident, corrupti nam maiores veritatis earum possimus unde esse sint amet quis consequuntur repellendus fugit minima dolores ut aspernatur! Dignissimos soluta natus velit accusamus. Harum perspiciatis accusamus repudiandae aliquid cupiditate ex fugiat porro animi laboriosam possimus libero, magnam beatae sint? Magnam voluptatem sequi quidem distinctio illum amet labore possimus? Eligendi iusto temporibus libero eaque accusamus cum aspernatur sequi harum similique. Similique.
+Over the years I have spent time selling wholesale construction supply, constructing oilfield production level pipelines for [Gateway Companies](https://gatewayok.com/), and recently commercial contracting for [Mallett Plumbing & Utilities](https://www.mallettplumbing.com). Through these experiences I have been able to develop a varying toolbox helpful for taking on some of the most stressful tasks.  
+
+Away from construction, you will generally find me strolling down the fairway of a lonely muni course, as I've come to find a certain sense of calming and peace with a club in my hand chasing a silly white ball for a few hours. You will find a wide range of topics and ramblings on this site. It is my hope some of the information will be beneficial to you.  
