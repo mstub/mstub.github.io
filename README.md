@@ -9,6 +9,7 @@
 - [x] 01 Oct 19 - Added migrate message, added links to talks & repos
 - [x] 14 Oct 19 - Migrate to Jekyll, lots of site wide updates
 - [x] 19 Oct 19 - Update Page Settings with First Blog Post
+- [x] 20 Oct 19 - Build Resume Page, Offer Resume.pdf
 
 ## Needs
 - [ ] Integrate Travis CI
@@ -16,4 +17,3 @@
 - [ ] Work with Site Navigation Bar
 - [ ] Work with Site Footer
 - [ ] Work with Blog Page Layout
-- [ ] Build Resume Page, Offer Resume.pdf
